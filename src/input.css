@@ -20,3 +20,9 @@
     height: 100%;
     border: 0;
 }
+
+@media screen and (max-width:768px){
+    .chatbot-container{
+        width: 350px;
+    }
+}

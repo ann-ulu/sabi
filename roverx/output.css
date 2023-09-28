@@ -691,6 +691,12 @@ video {
   border: 0;
 }
 
+@media screen and (max-width:768px){
+  .chatbot-container{
+    width: 350px;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:mt-32 {
     margin-top: 8rem;
