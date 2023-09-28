@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chatbot-container {
+    position: fixed;
+    bottom: 20px; /* Adjust the position as needed */
+    right: 20px; /* Adjust the position as needed */
+    width: 500px; /* Match the width from the PVA demo */
+    height: 600px; /* Match the height from the PVA demo */
+    background-color: white; /* Match the background color from the PVA demo */
+    border: 1px solid #ccc; /* Match the border style and color from the PVA demo */
+    border-radius: 10px; /* Match the border radius from the PVA demo */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Match the box shadow from the PVA demo */
+}
+
+/* Style for the iframe to fill the container */
+.chatbot-iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
